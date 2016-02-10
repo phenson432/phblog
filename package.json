@@ -1,0 +1,25 @@
+{
+  "name": "phblog",
+  "version": "1.0.0",
+  "description": "Experiment in web app design",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/phenson432/phblog.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/phenson432/phblog/issues"
+  },
+  "homepage": "https://github.com/phenson432/phblog#readme",
+  "dependencies": {
+    "body-parser": "^1.14.2",
+    "ejs": "^2.4.1",
+    "express": "^4.13.4",
+    "mongoose": "^4.4.3"
+  }
+}
