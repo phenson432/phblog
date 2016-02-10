@@ -1,3 +1,31 @@
 Testing blog
-Michael
-learning
+
+Hi Peter!
+
+Going to use Node.js as the server-side environment, you can install it from here: https://nodejs.org/en/
+It comes with it's own "package manager" called npm, which is really handy for installing features without having to write the code yourself. The libraries are all here: https://www.npmjs.com/
+
+Don't worry about the server side stuff for now - look into learning about HTML, CSS and start on javascript when you can.
+Node.js is a javascript environment as well, so javascript will serve you well as a language to learn; the more adept you get at javascript the more sense Node.js will make.
+
+As a basic idea of how the structure will work:
+            
+
+Client Computer (Person reading your blog)                          Server Computer (web host, or local for development/testing)
+ 
+       HTML - the structure/content                                                   Node.js
+       CSS  - appearance                                                             Express.js
+    javascript - interaction                                                          MongoDB - database
+       
+So Node.js is the actual server-side environment, it's written in C++ with the chrome v8 javascript engine embedded in it (more on this another time :)). 
+Node.js has the ability to query our database for information and to process files etc. 
+Javascript does NOT have this ability, since it is restricted to the browser. This is an important point to remember - although the languages are the same, Node.js and javascript operate at different levels. You can't (as far as I know) use javascript to process something from a file, it doesn't have access. However, you can have Node.js handle the file-reading/database and then pass this information to javascript to interpret.
+
+MongoDB is a noSQL database. Remember Microsoft Access? That is an SQL database system, with table structures etc.
+NoSQL means that it stores the information as JSON documents, not in tables - really easy to get the hang of and easy to manipulate with javascript.
+
+Express.js is a web framework that makes it easy to use Node.js to create a server and deal with client requests.
+
+HTML, CSS and javascript are all going to be sent to the client in response to the requests. These three work together to create the structure, appearance and features of the page. Interaction is mainly handled with javascript - there are some handy libraries and frameworks out there that we can also add later to bring some neat features without having to write heaps of complex code.
+
+Let's have some fun with this, good opportunity for both of us to learn :-)
